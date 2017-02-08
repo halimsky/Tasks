@@ -1,7 +1,6 @@
 package org.home;
 
 import java.io.BufferedReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -15,9 +14,6 @@ public class IpAddresses {
     private static String error = "Ошибка! Введите заново";
     private static List<Integer> firstAddressBits = new ArrayList<Integer>();
     private static List<Integer> secondAddressBits = new ArrayList<Integer>();
-
-    private static long startAddress;
-    private static long endAddress;
 
     private static List<String> allowValues = new ArrayList<String>();
 
