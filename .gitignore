@@ -1,0 +1,8 @@
+*.iml
+.idea
+*.class
+*.jar
+*.war
+*.ear
+*.txt
+target
